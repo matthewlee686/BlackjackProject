@@ -40,11 +40,7 @@ public class Card {
 
   @Override
   public String toString() {
-    StringBuilder builder = new StringBuilder();
-    builder.append(rank);
-    builder.append(" of ");
-    builder.append(suit);
-    return builder.toString();
+    return rank + " of " + suit; 
   }
   
 }
